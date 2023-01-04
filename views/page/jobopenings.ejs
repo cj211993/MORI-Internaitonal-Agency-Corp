@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="../img/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+      
+        #position {
+            left: -170px;
+            top: 5px;
+        }
+        body {
+            background: rgb(236, 236, 236);
+        }
+        #job-opening {
+            background: white;
+            position: relative;
+            padding: 30px;
+            height: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: 'Lato', sans-serif;
+        }
+        #job-opening #position li {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        #position .flow-text {
+            margin-bottom: -5px;
+            margin-top: 5px;
+        }
+        #qatar {
+            position: relative;
+            bottom: 20px;
+        }
+        #requirements .flow-text {
+            position: relative;
+            margin-bottom: -10px;
+        }
+        #requirements .btn-flat {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+            color: white;
+            background-color: #0d47a1;
+            font-weight: bold;
+           
+        }
+        .main-header {
+        background: url(/img/job_opening.jpg);
+        background-size: cover;
+        /* background-attachment: fixed; */
+        background-position: center;
+        min-height: 350px;
+        }
+        #btn-flat-teal {
+            cursor: text;
+        }
+     
+    </style>
+    <title>Job Openings</title>
+</head>
+<body>
+
+<header class="main-header">
+    <%-include('../common/nav') %> 
+</header>
+<%- include('../common/sidenav') %> 
+<!-- mcdo -->
+    <section class="section container "id="job-opening">
+        <div class="row">
+            <div class="col s12 m6" id="position">
+             <img src="../ads/3.jpg" class="responsive-img materialboxed" alt="">
+              <h5><b>Mcdonald's Almana Restaurant & Food Co., W.L.L</b></h5>
+              <span><label><b>Doha Qatar</b></label></span>
+              <h5 class="red-text darken-4"><b>Position Available:</b></h5>
+              <li>Service Crews</li>
+              <li>McCafe Crews</li>
+              <li>MDS Riders</li>
+            </div>
+            <div class="col s12 m6" id="requirements">
+                <h5 class="btn-flat  teal darken-4 center" id="btn-flat-teal"><b>Job Description</b></h5>
+                <p>Persona is the company top startups use to hire people from all around the world. Our vision is a future where each person can find the best role for them and companies can discover the world’s best talent. Founded by two Stanford University graduates, Persona works with the world’s fastest-growing technology startups. Our clients are funded by some of the world’s top investors, like Founders Fund, Sequoia Capital, and Andreessen Horowitz.</p>
+                <li>Atleast High School graduate</li>
+                <li>At least 6 months experience in fast food chain similar to Mcdonald</li>
+                <li>Good english communication skills</li>
+                <li>Passport at least 1 year validity</li>
+                <a href="" class="btn-flat">Apply now</a>
+            </div>
+        </div>
+    </section>
+    <!-- alsharq -->
+    <section class="section container" id="job-opening">
+        <div class="row">
+            <div class="col s12 m6" id="position">
+              <img src="../ads/Alsharq UAE.png" class="responsive-img materialboxed" alt="">
+              <h5><b>Al Sharq Plas LLC</b></h5>
+              <span><label><b>U.A.E. - Abu Dhabi</b></label></span>
+              <h5 class="red-text darken-4"><b>Position Available:</b></h5>
+              <li>BLOWN FILM OPERATORS</li>
+            </div>
+            <div class="col s12 m6" id="requirements">
+                <h5 class="btn-flat  teal darken-4 center" id="btn-flat-teal"><b>Job Description</b></h5>
+                <p>We manufacture Heavy Duty Films like FFS films, LDPE Bags & Sacks, Shrink hood Films, Stretch hood Films for various sectors & industries..</p>
+                <li>Grad. of High School /Vocational / Technical Course </li>
+                <li>Experience in operating Polyethylene film Co-extrusion line preferable German machineries</li>
+                <li>Good knowledge of products and blends, basic mech’l & electrical exp. is helpful but not necessary.</li>
+                <li>Minimum experience 3 years.</li>
+                <li>Must have VALID PASSPORT</li>
+                <a href="" class="btn-flat">Apply now</a>
+            </div>
+        </div>
+    </section>
+    <!-- defense -->
+    <section class="section container" id="job-opening">
+        <div class="row">
+            <div class="col s12 m6" id="position">
+             <img src="../ads/Defense Military KSA.jpg" class="responsive-img materialboxed alt="">
+              <h5><b>DEFENSE ENTERPRISES MILITARY INDUSTRY CO.</b></h5>
+              <span><label><b>Riyadh, K.S.A</b></label></span>
+              <h5 class="red-text darken-4"><b>Position Available:</b></h5>
+              <li>ARMOR BODY PRODUCTION MANAGERS</li>
+            </div>
+            <div class="col s12 m6" id="requirements">
+                <h5 class="btn-flat  teal darken-4 center" id="btn-flat-teal"><b>Job Description</b></h5>
+                <p>We manufacture Heavy Duty Films like FFS films, LDPE Bags & Sacks, Shrink hood Films, Stretch hood Films for various sectors & industries..</p>
+                <li>Grad. of High School /Vocational / Technical Course </li>
+                <li>Experience in operating Polyethylene film Co-extrusion line preferable German machineries</li>
+                <li>Good knowledge of products and blends, basic mech’l & electrical exp. is helpful but not necessary.</li>
+                <li>Minimum experience 3 years.</li>
+                <li>Must have VALID PASSPORT</li>
+                <a href="" class="btn-flat">Apply now</a>
+            </div>
+        </div>
+    </section>
+    
+    <%- include('../common/footer') %> 
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
